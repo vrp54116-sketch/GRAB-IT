@@ -1,0 +1,27 @@
+{
+  "name": "grab-it",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node scripts/start.mjs",
+    "serve": "node server.mjs"
+  },
+  "dependencies": {
+    "@uimaxbai/am-lyrics": "^1.9.0",
+    "album-art": "^4.0.4",
+    "colorthief": "^3.5.0",
+    "html-to-image": "^1.11.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13",
+    "vanilla-tilt": "^1.8.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

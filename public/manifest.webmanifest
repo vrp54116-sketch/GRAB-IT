@@ -1,0 +1,12 @@
+{
+  "name": "GRAB IT! — music you can grab",
+  "short_name": "GRAB IT!",
+  "description": "A free, private, no-account music player with a hand-drawn UI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFE695",
+  "theme_color": "#FFE695",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

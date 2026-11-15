@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="w">
+      <feTurbulence type="turbulence" baseFrequency="0.05" numOctaves="2" seed="4" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#w)">
+    <path d="M32 4c14 0 26 10 26 24S46 60 30 60 4 50 5 33 18 4 32 4Z"
+          fill="#FFE695" stroke="#342E1B" stroke-width="3"/>
+    <text x="32" y="43" text-anchor="middle"
+          font-family="Comic Sans MS, cursive" font-size="34" font-weight="700"
+          fill="#342E1B">G!</text>
+  </g>
+</svg>
